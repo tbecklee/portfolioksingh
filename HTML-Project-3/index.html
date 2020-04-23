@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Page</title>
+    <link href="../Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <!--In the following big chunk of code right here, we are creating the tabs at the top that become different pages of the website. Container makes them seperate "containers" and "divisions". The nav-link active part is important because that represents the active page, or page we are currently on-->
+  <body>
+    <div class="container">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a style="background: #566573" class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item nav-fill">
+          <a class="nav-link" href="last_aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last_projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last_resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last_contactme.html">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+    <!--This is the jumbotron at the top, or header. It makes a section with the title, which os my name. It shows the objective of my website. I made a container and then a jumbotron. I didn't want it to be a simply color so I added style. The color I choose is a simple blue. In my header I also have an opening sentence-->
+    <div class="container">
+      <div style="background-image: linear-gradient(#76D7C4, white)" class="jumbotron">
+        </style>
+        <h1 class="display-4">Kavya's Engineering Website</h1>
+          <div class="container">
+              <p class ="lead">I am a freshmen in High School and I love dance. I am also intreseted in Law and Business. Want to know more..?</p>
+              <a href="last_aboutme.html">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Here we have created cards. There are lots of divs and containers. Containers identify new divisions. If we didn't have containers it would not be organized into certain divisions. The "col-md-6" and rows make rows and coloums. -->
+    <div class="container">
+
+      <div class="row">
+        
+        <div class="col-md-6">
+          
+          <div class="card" >
+            <div class="row" style="height: 200px;">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h6>Experience</h6>
+                  <h4>My Hobby</h4>
+                  <p class="card-text"> I love dance. Want to know more about my accomplisments as a dancer..</p>
+                  <a href="last_aboutme.html">Continue Reading</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img class="image" style= "width:100%" src="../Images/IMG_5300.JPG" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+    <!-- The cards have an image and text. The image was uploaded from my drive and put into a folder. I called the folder with the image so that it would display. I adjusted the height and width a little as well. -->     
+          <div class="card">
+            <div class="row" style="height: 200px;">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h6>Experience</h6>
+                  <h4>Teaching Dance</h4>
+                  <p class="card-text">I also have my own job as a dance teacher!</p>
+                  <a href="last_projects.html">Continue Reading</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img class="card-img-left float-right" style="width:75%" src="../Images/dancer.jpg" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+
+        </div>
+  <!-- The cards have an image and text. The image was uploaded from my drive and put into a folder. I called the folder with the image so that it would display. I adjusted the height and width a little as well. --> 
+
+        <div class="col-md-6">
+          
+          <div class="card">
+            <div class="row" style="height: 200px;"> 
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h6>Projects</h6>
+                  <h4>My Website</h4>
+                  <p class="card-text">I also made my own website for my dance company!</p>
+                  <a href="last_projects.html">See my website</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img class="card-img-right" style="width:100%" src="../Images/DanceSchool.png" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+    <!-- The cards have an image and text. The image was uploaded from my drive and put into a folder. I called the folder with the image so that it would display. I adjusted the height and width a little as well. --> 
+
+          <div class="card">
+            <div class="row" style="height: 200px;">
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h6>Projects</h6>
+                  <h4>My Resume</h4>
+                  <p class="card-text">See my accomplishments and more!</p>
+                  <a href="last_resume.html">Read my Resume</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img class="card-img-right float-right" style="width:60%" src="../Images/IMG_5612.jpg" alt="Card image cap">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <br>
+    <br>
+  <!-- This footer is similar to the header. I created a container and then a jumbotron to duplicate the one at the top. However, now the difference is that there are small icons at the bottom. The Dublin one goes to the Dublin High School website. The images were uploaded to my Images folder. I also changed the color to match the header. -->
+    <div class="container">
+      <div style="background-image: linear-gradient(#76D7C4, white)" class="jumbotron">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="mailto:singhkavya05@gmail.com">
+              <img src="Images/mailclear.png" style="max-width: 100px"/>
+          </div>
+              <div class="col-md-3">
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <img src="Images/linkedinn.png" width="100" height= "100"/>
+                </a>
+              </div>
+              <div class="col-md-5">
+                <a href="https://www.dublin.k12.ca.us/dhs">
+                <img src="Images/DHS2.png" class="float-right"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    
+  </body>
+</html>

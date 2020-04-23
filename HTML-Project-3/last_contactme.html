@@ -1,0 +1,64 @@
+<html>
+<head>
+  <link href="../Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../aboutme.css" rel="stylesheet" type="text/css"/>
+</head>
+<!--In the following big chunk of code right here, we are creating the tabs at the top that become different pages of the website. Container makes them seperate "containers" and "divisions". The nav-link active part is important because that represents the active page, or page we are currently on-->
+<body>
+  <div class="container">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item nav-fill">
+          <a class="nav-link " href="last_aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last_projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="last_resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a style="background: #566573" class="nav-link active" href="last_contactme.html">Contact Me</a>
+        </li>
+      </ul>
+  <!-- I have a very simple jumbotron here because I have limited info. My email and name. There is not content besides header and footer. -->
+  <div style="background-image: linear-gradient(#76D7C4, white)" class ="jumbotron">
+    <div class="container">
+      <h2>Contact Me</h2>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+      <h3>Kavya Singh</h3>
+      <br>
+      <h5>I live in Dublin, CA!</h5>
+      <h5> Email me at - singhkavya05@gmail.com</h5>
+    <br>
+  </div>
+
+  <!-- This footer is similar to the header. I created a container and then a jumbotron to duplicate the one at the top. However, now the difference is that there are small icons at the bottom. The Dublin one goes to the Dublin High School website. The images were uploaded to my Images folder. I also changed the color to match the header. -->
+    <div class="container">
+      <div style="background-image: linear-gradient(#76D7C4, white)" class="jumbotron">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="mailto:singhkavya05@gmail.com">
+            <img src="Images/mailclear.png" style="max-width: 100px"/>
+            </a>
+          </div>
+            <a href="www.linkedin.com">
+              <div class="col-md-3">
+                  <img src="Images/linkedinn.png" width="100" height= "100"/>
+            </a>
+              </div>
+              <div class="col-md-5">
+                <a href="https://www.dublin.k12.ca.us/dhs">
+                <img src="Images/DHS2.png" class="float-right"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
